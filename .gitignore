@@ -1,0 +1,11 @@
+# Build directory
+build/
+
+# Executable
+GraphBuilder
+
+# Compiled objects (if you compile manually)
+*.o
+
+# macOS system files
+.DS_Store
