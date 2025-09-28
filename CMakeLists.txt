@@ -12,5 +12,9 @@ include_directories(include/service)
 add_executable(GraphBuilder
     src/models/graphBuilder.cpp
     src/service/print.cpp
+    src/service/bfs.cpp
+    src/service/dfs.cpp
+    src/service/cycle.cpp
+    src/models/menu.cpp
     src/main.cpp
 )
